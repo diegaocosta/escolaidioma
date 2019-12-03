@@ -1,0 +1,9 @@
+.lista {display: grid; grid-template-columns: auto 150px 160px 90px 80px 100px !important;}
+.modal {width: 700px; left: calc(50vw - 350px) !important; top: calc(50vh - 400px/2) !important;  }
+.modal .conteudo {height: 250px !important; overflow-y: scroll !important;}
+.modal .footer {border-top: 2px solid var(--azulclaro)}
+.modal .conteudo input, .modal .conteudo textarea {width: (100% - 10px); padding: 5px;}
+.modal .conteudo label {display: block;}
+.conteudo {padding: 0;}
+.modal .footer {height: 50px;}
+.pesq {display: grid; grid-template-columns: auto auto auto}

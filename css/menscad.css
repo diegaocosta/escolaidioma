@@ -1,0 +1,9 @@
+#alunolist {border: 2px solid var(--azulclaro); margin-top: -7px; height: 200px; overflow: auto; display: none;}
+#alunolist div {padding: 5px;}
+#alunopesq {border: 2px solid var(--azulclaro); width: calc(100% - 14px); }
+.lista {display: grid; grid-template-columns: auto 150px; grid-auto-rows: 40px;}
+.lista div {padding: 8px;}
+.infoth {background-color: var(--azulclaro); color: white; text-align: center;}
+.tth {border-top: 2px dashed var(--azulclaro); }
+#lista { margin: 5px; border: 2px solid var(--azulclaro); border-radius: 5px;}
+.box {width: calc(100% - 235px)}

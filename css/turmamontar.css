@@ -1,0 +1,9 @@
+
+#lista1 {border-right: 2px dashed var(--azulclaro)}
+img {width: 30px; display: right; margin-top: 3px;}
+.lista {display: grid; height: calc(100vh - 310px); grid-auto-rows: 34px; grid-template-columns: auto 35px; padding: 5px; border: 2px solid var(--azulclaro); }
+#lista2 {border-left: 0; border-radius: 0 0 5px 0}
+#lista1 {border-radius: 0 0 0 5px}
+.infos {color: white; background-color: var(--azulclaro); padding: 6px; margin-top: 5px; text-align: center;}
+.size2 > div {padding-right: 0; }
+.size2 > div + div {padding-left: 0; padding-right: 5px;}

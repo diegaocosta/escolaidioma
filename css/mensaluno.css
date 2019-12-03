@@ -1,0 +1,9 @@
+.mestitle {font-size: 24px; text-align: center; background-color: var(--azulclaro); color: white; margin: 0 !important; width: auto !important; padding: 5px;}
+.meses {border: 2px solid var(--azulclaro); width: calc(100% - 10px); padding: 0 !important; }
+.meses label {margin-top: 8px; }
+.box { width: calc(100vw - 250px)}
+.meslist { padding: 10px !important; grid-gap: 3px; grid-row-gap: 8px;}
+.mesbox {text-align: center;}
+.sizes button {display: block; width: 100%; padding: 6px; margin-top: 5px;}
+.mesmaior {background-color: var(--azulescuro) !important}
+.mesmenor {background-color: lightgreen !important}

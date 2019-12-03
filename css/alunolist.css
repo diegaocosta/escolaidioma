@@ -1,0 +1,4 @@
+.lista {display:grid; grid-template-columns: auto auto auto 260px}
+.modal {width: 600px; left: calc(50vw - 300px) !important; top: calc(50vh - 545px/2) !important}
+.modal .conteudo label {display: grid; grid-template-columns: 30px auto}
+textarea {padding: 5px;}

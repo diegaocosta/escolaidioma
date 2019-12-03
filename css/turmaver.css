@@ -1,0 +1,4 @@
+#lista * {margin: 5px; }
+#lista div {margin-top: 10px; }
+#lista {border: 2px solid var(--azulclaro); display: grid; grid-template-columns: auto 200px}
+.th {padding: 10px; color: white; background-color: var(--azulclaro); text-align: center;}

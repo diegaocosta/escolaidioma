@@ -1,0 +1,3 @@
+.lista {display:grid; grid-template-columns: auto auto auto 100px}
+.pesq2 div {display:grid; grid-template-columns: 50px auto}
+.pesq2 label {margin-top: 10px;}

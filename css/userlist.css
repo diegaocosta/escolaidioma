@@ -1,0 +1,4 @@
+.lista {display: grid; grid-template-columns: auto auto 300px !important; } 
+
+.dir {margin-left: 10px;}
+#modal0 {left: calc(50vw - 175px / 2); top: calc(50vh - 126px / 2)}

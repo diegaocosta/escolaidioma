@@ -1,0 +1,3 @@
+.box {width: 400px; margin-left: calc(50vw - 200px); margin-top: calc(50vh - 326px/2)}
+#modal {left: calc(50vw - 470px/2); top: calc(50vh - 462px/2)}
+#modal input {padding: 5px;}

@@ -1,0 +1,6 @@
+.lista {display:grid; grid-template-columns: auto 110px 120px 100px}
+.pesq2 {display:grid; grid-template-columns: auto auto}
+.modal .footer {height: 50px; border-top: 2px dashed var(--azulclaro); }
+.modal .conteudo {padding-bottom: 10px !important;}
+#modal1 .conteudo {height: 400px}
+#modal1 {width: 80vw; left: 10vw !important}

@@ -1,0 +1,4 @@
+.modal .conteudo {padding: 10px; padding-bottom: 0; background: white;}
+.modal .footer {padding: 10px;  background: white;}
+.modal {position: absolute; overflow: auto; height: auto; display: none; left: -100px}
+.fundo {height: 100vh; width: 100vw; background-color: rgba(0,0,0,.3); position: absolute; top: 0;}

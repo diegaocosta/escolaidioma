@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Nunito;
+    src: url("../recursos/Nunito-Regular.ttf");
+}
+
+:root
+{
+    --azulclaro: #4e73df;
+    --azulescuro: #224abe;
+}
+
+
+body {margin: 0; padding: 0; }
+body * {font-size: 22px; font-family: Nunito;}
+input, label, textarea, select {width: calc(100% - 10px); margin: 5px 0 ;}
+select {padding: 5px; width: 100%;}
+form {border-radius: 5px; overflow: hidden;}
+textarea {resize: none;}
+button, input[type="submit"], a
+{
+    width: auto;
+    background-color: var(--azulclaro) !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0;
+}
+
+
+/* nav */
+
+li {list-style: none;}
+a, li {text-decoration: none; color: white; display: block; }
+nav > ul > li {padding: 3px; padding-left: 10px;}
+nav a {background-color: white !important; color: black !important;}
+nav label {margin: 0;}
+ul, ol {margin: 0; padding: 0;}
+nav {background-image: linear-gradient(to bottom, var(--azulclaro) , var(--azulescuro)); width: 200px; height: 100vh; position: fixed; margin-top: -10px;}
+.menu2 {display: none; background-color: white; padding: 10px; width: 160px; border-radius: 5px;}
+.menu2 a {color: black; padding: 3px; border-radius: 5px; }
+.menu2 a:hover {background-color: rgba(0, 0, 0, 0.096) !important }
+/* resto */
+
+.titulo {text-align: center; padding: 15px; background-color: var(--azulclaro); color: white;}
+.resto {padding: 10px; height: 50px; border-top: 2px solid var(--azulescuro)}
+.conteudo {padding: 10px;}
+.box {box-shadow: 0 .15rem 1.75rem 0 rgba(27, 27, 27, 0.342) !important; margin-top: 10px; margin-left: calc(218px); width: calc(100vw - 236px);}
+.direita {text-align: right}
+.esquerda {text-align: left !important}
+.direita2 {float: right}
+.btngrupo {height: 50px; margin-left: 200px; padding: 10px 18px;}
+
+/* conteudo */
+.box input {padding: 5px; }
+
+#deslogagem {background: none !important; color: white !important; margin-left: -7px; margin-top: -8px;}
+
+.pdfgen {
+    position: absolute;
+    right: 35px; 
+    width: 115px;
+    padding: 4px 10px; 
+    top: 20px;
+    background: linear-gradient(90deg, white 50%, transparent 50%), linear-gradient(90deg, white 50%, transparent 50%), linear-gradient(0deg, white 50%, transparent 50%), linear-gradient(0deg, white 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 10px 2px, 10px 2px, 2px 10px, 2px 10px;
+    background-position: left top, right bottom, left bottom, right top;
+    animation: border-dance .5s infinite linear;
+}
+.pdfgen2 {
+    position: absolute;
+    left: 230px; 
+    width: 160px;
+    padding: 4px 10px; 
+    top: 20px;
+    background: linear-gradient(90deg, white 50%, transparent 50%), linear-gradient(90deg, white 50%, transparent 50%), linear-gradient(0deg, white 50%, transparent 50%), linear-gradient(0deg, white 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 10px 2px, 10px 2px, 2px 10px, 2px 10px;
+    background-position: left top, right bottom, left bottom, right top;
+    animation: border-dance .5s infinite linear;
+}
+
+@keyframes border-dance {
+    0% {
+      background-position: left top, right bottom, left bottom, right   top;
+    }
+    100% {
+      background-position: left 10px top, right 10px bottom , left bottom 10px , right   top 10px;
+    }
+  }

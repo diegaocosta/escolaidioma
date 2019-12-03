@@ -1,0 +1,14 @@
+.pesq {display:grid; grid-template-columns: auto auto auto !important; }
+.td1 {width: 40%}
+.td2 {width: 20%}
+thead {position: fixed;}
+th {color: white; background-color: var(--azulclaro); width: calc(100% + 15px);}
+td, th {padding: 5px;}
+table {border-spacing: 0;}
+.thn {padding: 0;}
+.total {border-top: 2px dashed var(--azulclaro)}
+table {width: 100%;}
+
+.modal {top: calc(50vh - 40%) !important; width: 80%; left: calc(50vw - 40%); }
+.modal .conteudo {height: 60%;}
+.modal .btngroup {height: 50px;}

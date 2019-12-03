@@ -1,0 +1,11 @@
+#boletim {display: grid; grid-template-columns: 20% auto auto; height: calc(100vh - 160px);}
+#boletim label {padding: 5px; display: block; margin: 0; height: 30px; overflow: hidden; overflow-y: auto;  }
+.bolth {color: white; background-color: var(--azulclaro);}
+#notasdiv, #freqsdiv, #notas, #perc, #freqs {display: grid; }
+#notasdiv {grid-template-columns: 85px auto;}
+#freqsdiv {grid-template-columns: 70px 80px auto;}
+#notas, #freqs {overflow: hidden; overflow-x: auto;}
+#notas, #freqs, #perc {grid-auto-rows: 40px;}
+#freqs, #medias, #notas, #total, #perc {border-left: 2px solid var(--azulclaro);}
+.pesq {grid-template-columns: auto !important;}
+#btncad {width: 110px}

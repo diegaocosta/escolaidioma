@@ -1,0 +1,9 @@
+form { border-radius: 0;}
+.lista  {display: grid; grid-auto-rows: 35px;}
+.nomes {grid-template-columns: 140px 90px; }
+.nomes *:not(.first) {text-align: center;}
+.lista *, .nomes * {padding: 5px 0 ;}
+.lista input {margin: 5px !important; width: calc(100% - 50px); padding: 20px !important;}
+.size2a {grid-template-columns: 230px auto;}
+.firstl {margin-top: -5px !important; display: block;  color: white; background-color: var(--azulclaro); height: 30px;}
+.thnomes {height: 30px !important;}

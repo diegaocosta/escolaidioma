@@ -1,0 +1,15 @@
+.pesq {display: grid; grid-template-columns: auto auto auto 120px; padding: 10px; border-bottom: 2px solid var(--azulclaro); grid-column-gap: 10px;}
+.pesq2 {display: grid; grid-template-columns: auto auto 120px; padding: 10px; border-bottom: 2px solid var(--azulclaro); grid-column-gap: 10px;}
+.pesq select {width: auto;}
+.pesq input[type="date"] {min-width: auto; max-width: calc(100% - 60px)}
+.pesq a, .pesq2 a {height: 30px; margin-top: 2px; width: 100px;}
+#status {width: calc(100% - 100px);}
+.box {width: calc(100% - 240px); overflow: hidden; border-radius: 5px}
+.lista a {display: inline-block; }
+.lista label {margin-top: 8px;}
+.lista {height: calc(100vh - 160px); grid-auto-rows: 50px; grid-row-gap: 6px; overflow: auto;}
+.th {padding: 10px 0; text-align: center; background-color: var(--azulclaro); color: white; width: auto; margin: 0 !important;}
+.conteudo {padding: 0;}
+.first{margin-left: 10px;}
+.last {margin-right: 10px; text-align: right}
+.last a {margin-right: 10px;}

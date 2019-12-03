@@ -1,0 +1,4 @@
+.lista label {display: block;}
+input[type="checkbox"] {width: 30px !important;}
+#lista {border: 2px solid var(--azulclaro);}
+.th {padding: 10px; color: white; background-color: var(--azulclaro); text-align: center; display: block; width: calc(100% - 20px); margin: 0;}

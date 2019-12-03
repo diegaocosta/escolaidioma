@@ -1,0 +1,12 @@
+.pesq {grid-template-columns: auto auto 120px !important; } 
+.lista  {display: grid; grid-auto-rows: 40px; height: 350px}
+.lista  * {padding: 10px; text-align: center; padding-top: 5px}
+.lista  input {margin: 0px; width: auto}
+.lista  input label {margin-left: 5px;}
+.td1 {width: 200px}
+.td2 {width: 80px}
+.nomes {display: block;}
+.nomes * {height: 40px; padding: 12px; padding-left: 10px; background-color: white; }
+.nomes .th {background-color: var(--azulclaro); height: 22px; padding-top: 5px; padding-bottom: 13px;}
+.size2a {display: grid; grid-template-columns: 320px auto; }
+.nomes {display: grid; grid-template-columns: 150px 90px 80px;  grid-auto-rows: 40px;}
